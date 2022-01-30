@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+#top {
+    display: flex;
+}
+
+.top-photo {
+    width: 500px;
+    height: auto;
+}
+
+.content {
+    display: flex;
+}
+
+.content img {
+    width: 200px;
+    height: 200px;
+}
+
+.food {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+#ideas {
+    text-align: center;
+}
