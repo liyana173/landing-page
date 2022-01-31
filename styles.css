@@ -1,6 +1,6 @@
 body {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
 }
 
 header {
@@ -14,20 +14,22 @@ ul {
     margin: 0;
     padding: 0;
     gap: 20px;
+    align-self: center;
 }
 
 .logo {
-    width: 150px;
+    width: 100px;
     height: auto;
     border-radius: 50%;
 }
 
-#top {
+#about {
     display: flex;
+    gap: 50px;
 }
 
 .top-photo {
-    width: 500px;
+    width: 400px;
     height: auto;
 }
 
@@ -49,4 +51,18 @@ ul {
 
 #ideas {
     text-align: center;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: auto;
+    align-self: center;
+    gap: 10px;
+}
+
+#about .left {
+    align-self: center;
+    flex: 1;
 }
