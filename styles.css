@@ -97,6 +97,7 @@ button {
 
 .food p {
     margin: 8px;
+    font-size: 16px;
 }
 
 .photos-and-description img {
@@ -148,6 +149,37 @@ button {
 .quote-section p {
     margin: 0;
 }
+
+#sign-up {
+    display: flex;
+    align-self: center;
+    background-color: #3882f6;
+    gap: 100px;
+    padding: 40px 100px;
+    margin: 80px 0px;
+    border-radius: 10px;
+}
+
+.sign-up-caption h3 {
+    font-size: 18px;
+    color: #f9faf8;
+    font-weight: 800;
+    margin: 0;
+}
+
+.sign-up-caption p {
+    font-size: 16px;
+    color: #f9faf8;
+    margin: 0;
+}
+
+#sign-up button {
+    border: 3px solid #f9faf8;
+    align-self: center;
+}
+
+
+
 
 
 
