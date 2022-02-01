@@ -14,7 +14,7 @@ body {
     box-sizing: border-box;
     width: 100%;
     height: auto;
-    padding: 10px 150px 100px;
+    padding: 10px 150px 80px;
 }
 
 header {
@@ -46,9 +46,6 @@ a,
     font-size: 18px;
     color: #e5e7eb;
 }
-    
-
-
 
 #about {
     display: flex;
@@ -82,11 +79,26 @@ button {
 }
 .content {
     display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+#ideas h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.food p {
+    margin: 8px;
 }
 
 .content img {
     width: 200px;
     height: 200px;
+    border-radius: 25px;
+    border: 3px solid #1f2937;
 }
 
 .food {
