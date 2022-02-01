@@ -6,6 +6,12 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
 .top {
     display: flex;
     flex-direction: column;
@@ -77,11 +83,10 @@ button {
     border-radius: 10px;
     border: none;
 }
-.content {
+.photos-and-description {
     display: flex;
     justify-content: center;
     gap: 50px;
-    padding-bottom: 50px;
 }
 
 #ideas h2 {
@@ -94,7 +99,7 @@ button {
     margin: 8px;
 }
 
-.content img {
+.photos-and-description img {
     width: 200px;
     height: 200px;
     border-radius: 25px;
@@ -110,6 +115,38 @@ button {
 
 #ideas {
     text-align: center;
+    padding-bottom: 50px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    width: 100%;
+    align-items: center;
+    padding: 80px 0px;
+    gap: 10px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    width: 500px;
+}
+
+.name {
+    font-size: 18px;
+    color: #1f2937;
+    font-weight: 800;
+    font-style: normal;
+    width: 500px;
+    text-align: end;
+}
+
+.quote-section p {
+    margin: 0;
 }
 
 
