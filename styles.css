@@ -154,8 +154,8 @@ button {
     display: flex;
     align-self: center;
     background-color: #3882f6;
-    gap: 100px;
-    padding: 40px 100px;
+    gap: 150px;
+    padding: 40px 150px;
     margin: 80px 0px;
     border-radius: 10px;
 }
@@ -178,7 +178,13 @@ button {
     align-self: center;
 }
 
-
+footer {
+    text-align: center;
+    font-size: 16px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 30px 0px;
+}
 
 
 
